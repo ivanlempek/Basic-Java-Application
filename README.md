@@ -22,9 +22,9 @@ Para podermos inserir um usuário no banco de dados, primeiro precisamos criar u
 	- Databases > create > Database > loteria
   Depois vamos	configurar o persistence.xml para conectar com o PostgreeSQL:
   
+  	- webapp/WEB-INF/classes/META-INF/persistance.xml
 	Vamos especificar o seu banco criado:
 	- <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/loteria" />
-	- webapp/WEB-INF/classes/META-INF/persistance.xml
 	Seu usuario do Postgree:
 	- <property name="javax.persistence.jdbc.user" value="postgres" /> 
 	Sua senha do Postgree:
