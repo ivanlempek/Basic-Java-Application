@@ -9,6 +9,7 @@ Dependências do Projeto:
 
 Inciando a aplicação:
 No eclipse (já com o Tomcat configurado):
+
 	-import
 	-maven project
 	-projeto 
@@ -16,9 +17,11 @@ No eclipse (já com o Tomcat configurado):
 Dentro da aba Servers, precisamos clicar com o botão direito no Tomcat v9.0 Server e depois em "Add and Remove" e adicionar o projeto.
 
 Para podermos inserir um usuário no banco de dados, primeiro precisamos criar um novo banco e depois conectar nossa aplicação com o Postgree:
+
 	Para criar um novo banco no pgAdmin do Postgree:
 	- Databases > create > Database > loteria
   Depois vamos	configurar o persistence.xml para conectar com o PostgreeSQL:
+  
 	Vamos especificar o seu banco criado:
 	- <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/loteria" />
 	- webapp/WEB-INF/classes/META-INF/persistance.xml
