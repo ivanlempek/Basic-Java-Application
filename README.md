@@ -1,7 +1,8 @@
 # Aplicação Java Web de cadastro de usuário.
 
 Dependências do Projeto:
-  -Java 14 Jdk
+
+ 	-Java 14 Jdk
 	-Eclipse
 	-Tomcat v9.0.62 server
 	-PostgreeSQL 9
