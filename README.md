@@ -33,7 +33,7 @@ Para podermos inserir um usuário no banco de dados, primeiro precisamos criar u
 Agora já podemos inserir um usuário dentro do banco de dados e testar as outras páginas da aplicação:
 
 -Para ver o usuário cadastrado basta ir dentro do pgAdmin do Postgree e ir até tables > usuario > View/Edit Data > All Rows
-Rotas da aplicação:
+-Rotas da aplicação:
 
 - http://localhost:8080/loteria/cadastro
 - http://localhost:8080/loteria/login
