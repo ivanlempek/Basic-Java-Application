@@ -31,6 +31,7 @@ Para podermos inserir um usuário no banco de dados, primeiro precisamos criar u
         - <property name="javax.persistence.jdbc.password" value="123456" /> 
 
 Agora já podemos inserir um usuário dentro do banco de dados e testar as outras páginas da aplicação:
+
 -Para ver o usuário cadastrado basta ir dentro do pgAdmin do Postgree e ir até tables > usuario > View/Edit Data > All Rows
 Rotas da aplicação:
 
